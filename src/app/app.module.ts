@@ -13,6 +13,7 @@ import { DecoratorComponent } from './structural/decorator/decorator.component';
 import { FacadeComponent } from './structural/facade/facade.component';
 
 import {SearchFacadeService} from './services/search-facade.service';
+import { FactoryComponent } from './creational/factory/factory.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {SearchFacadeService} from './services/search-facade.service';
     ObserverTypescriptComponent,
     StrategyComponent,
     DecoratorComponent,
-    FacadeComponent
+    FacadeComponent,
+    FactoryComponent
   ],
   imports: [
     BrowserModule,
